@@ -1,0 +1,4 @@
+## How to add a new custom command: keyword1 keyword2 ; shell_command .
+## Example: work ready ; rosrun baxter_tools tuck_arms.py -u .
+work ready ; rosrun baxter_tools tuck_arms.py -u .
+sleep ; rosrun baxter_tools tuck_arms.py -t .
